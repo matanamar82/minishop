@@ -1,0 +1,85 @@
+body{
+  background-color:rgb(69, 162, 255);
+  flex-direction: column;
+  margin-top: 0%;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bar{
+  height: 15vh;
+  width: 100vw;
+  background-color:rgb(124, 184, 244);
+  justify-content: space-between;
+}
+.shop_logo{
+  flex-direction: column; 
+  margin-left: 1.5%;
+  color:rgb(255, 149, 96)
+}
+.shop_name{
+  margin-bottom: 0%; 
+  margin-top: 0%; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+  max-height: 70vh;
+  background-color: aliceblue;
+}
+.border{
+  border: 1px solid black;
+}
+.list{
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 10vw;
+  height: 32vh;
+  margin-top: 3%;
+  flex-wrap: wrap;
+}
+.div_blocks{
+  width: 19.55vw;
+  height: 100%;
+  flex-direction: column;
+}
+label{
+  font-size: large;
+  color: rgb(64, 123, 231);
+}
+.margin_bottom{
+  margin-bottom: 5%;
+}
+.buttons_div{
+  height: 10%;
+  width: 15vw;
+  flex-direction: row; 
+  display: flex;
+}
+button{
+  text-align: center;
+}
+.buttons_down{
+  background-color:rgb(190, 241, 113);
+  height: 40px;
+  border: 1px solid white;
+  width: 5vw;
+}
+h3{
+  text-align: center;
+  height: auto;
+  border-radius: 100%
+}
+select{
+  width: 55%;
+}
+.top{
+  width: 100%;
+  height: 56vh;
+  flex-direction: column;
+}
+.bottom{
+  width: 100%;
+  height: 14vh;
+}

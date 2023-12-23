@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>categories</title>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <script defer src="../javascripts/category.js"></script>
+</head>
+<body class="center">
+    <div class="bar center" style="justify-content: space-between;">
+        <div class="center shop_logo">
+            <h1 class="shop_name">Matan's Minishop</h1>
+            <label style="font-style: italic;"><b>(it's not a shop, it's a Minishop)</b></label>
+        </div>
+        <div class="center" style="margin-right: 3%;">
+            <button value="brand" onclick=GetPage(value)>Brands</button>
+            <button value="category" onclick=GetPage(value)>Categories</button>
+            <button value="item" onclick=GetPage(value)>Items</button>   
+            <!-- <button>Images</button> -->
+        </div>         
+    </div>
+    <h1 style="margin-bottom: 1.5%;">Manage categories</h1>
+    <form class="main center" style="width: 40vw; flex-direction: row;">
+        <div class="div_blocks center">
+            <div class="top center">
+                <h3 class="border" style="width: 13vw;">List of categories from the DB</h3>
+                <label><b>categories</b></label>
+                <div class="center list border">
+    
+                </div>
+            </div>
+            <div class="bottom center">
+                <button class="buttons_down">
+                    Delete
+                </button>
+            </div>
+        </div>
+        <div class="div_blocks center">
+            <div class="top center">
+                <div style="margin-top: 30%;">
+                    <div class="margin_bottom">
+                        <label><b>Name:</b></label>
+                        <input type="text" placeholder="enter the category name: ">
+                    </div>
+                    <div class="margin_bottom" style="flex-direction: column; display: flex;">
+                        <label><b>Description:</b></label>
+                        <textarea name="" id="" cols="28" rows="10" placeholder="enter the description of the category: "></textarea>
+                    </div>
+                    <div class="margin_bottom">
+                        <label><b>Image:</b></label>
+                        <input type="text" placeholder="enter the image: ">
+                    </div>
+                </div>
+            </div>
+            <div class="bottom center">
+                <button class="buttons_down">New</button>
+                <button class="buttons_down">Insert</button>
+                <button class="buttons_down">Update</button>
+            </div>
+        </div>
+    </form>
+</body>
+</body>
+</html>
